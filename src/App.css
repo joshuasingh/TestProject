@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.tableRow {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tableHeader {
+  font-weight: bolder;
+}
+
+.tableRow:hover {
+  cursor: pointer;
+}
